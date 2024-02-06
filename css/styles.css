@@ -1,0 +1,56 @@
+body{
+    border: 1px solid #ccc;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+header{
+    background: rgb(167, 167, 193);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+nav{
+    background: #eee;
+}
+nav li{
+    border-right: 2px solid magenta;
+    display: block;
+    float: left;
+    margin: 2px;
+    padding: 1px;
+}
+nav li:hover{
+    color: blue;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+aside{
+    border: 1px solid gold;
+    float: left;
+    width: 28%;
+}
+article{
+    border: 1px solid #ccc;
+    float: left;
+    width: 68%;
+}
+article .box{
+    background: rgb(166, 139, 139);
+    border: 3px solid seagreen;
+    float: left;
+    height: 250px;
+    margin: 2px;
+    width: 40%;
+}
+footer{
+    background: #eee;
+    border: 1px solid greenyellow;
+    color: #444;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+}
